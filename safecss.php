@@ -20,7 +20,7 @@
 // register jquery and style on initialization
 add_action('init', 'registersfcss_script');
 function registersfcss_script() {
-    wp_register_script( 'sfcss_jquery', plugins_url('assets/js/js.js', __FILE__), array('jquery'), '2.5.1' );
+    //wp_register_script( 'sfcss_jquery', plugins_url('assets/js/js.js', __FILE__), array('jquery'), '2.5.1' );
 
     wp_register_style( 'sfcss_style', plugins_url('frontend/custom.css', __FILE__), false, '1.0.0', 'all');
 }
